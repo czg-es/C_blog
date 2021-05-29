@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comentarios"
-date:   2021-05-20 22:26:42 +0200
+date:   2021-05-19 0:26:42 +0200
 categories: JupyterNb
 ---
 
