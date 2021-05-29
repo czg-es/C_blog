@@ -26947,14 +26947,14 @@ plt.show()
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_16_0.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_16_0.png)
     
 
 
 ### Seaborn funciones Figure-level
 
 Interactuan con matplotlib a través de un objeto seaborn.
-![image.png](/assets/img/TITANIC_DATASET/function_overview_8_0.png)
+![image.png](/C_blog/assets/img/TITANIC_DATASET/function_overview_8_0.png)
 
 
 # Categorical Plots
@@ -26981,7 +26981,7 @@ sns.barplot(x = 'Sex', y = 'Survived', data = datanew, estimator= np.std)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_20_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_20_1.png)
     
 
 
@@ -27008,7 +27008,7 @@ sns.countplot(x = 'Pclass', data = datanew)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_22_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_22_1.png)
     
 
 
@@ -27035,7 +27035,7 @@ plt.legend(loc=0)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_24_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_24_1.png)
     
 
 
@@ -27068,7 +27068,7 @@ plt.legend(loc=0)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_26_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_26_1.png)
     
 
 
@@ -27094,7 +27094,7 @@ plt.legend(["muerto","vivo"],loc=0)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_28_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_28_1.png)
     
 
 
@@ -27124,7 +27124,7 @@ plt.legend(loc=0)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_30_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_30_1.png)
     
 
 
@@ -27153,7 +27153,7 @@ plt.legend(loc=0)
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_32_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_32_1.png)
     
 
 
@@ -27184,7 +27184,7 @@ sns.histplot(x = 'Sex', y = 'Age', data = datanew,hue ='Survived' )
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_35_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_35_1.png)
     
 
 
@@ -27210,7 +27210,7 @@ sns.kdeplot(x = 'Age', y = 'Pclass', data = datanew,hue ='Survived' )
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_37_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_37_1.png)
     
 
 
@@ -27237,7 +27237,7 @@ sns.ecdfplot(x = 'Age', data = datanew, hue='Sex'  )
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_39_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_39_1.png)
     
 
 
@@ -27264,7 +27264,7 @@ sns.rugplot(x = 'Age', data = datanew ,hue ="Survived" )
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_41_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_41_1.png)
     
 
 
@@ -27300,7 +27300,7 @@ sns.scatterplot(data=datanew, x="Age", y="Pclass",
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_44_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_44_1.png)
     
 
 
@@ -27337,7 +27337,7 @@ sns.lineplot(data=datanew, x="Pclass", y="PassengerId", hue="Sex")
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_46_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_46_1.png)
     
 
 
@@ -27356,7 +27356,7 @@ plt.show()
 
 
     
-![png](/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_48_1.png)
+![png](/C_blog/assets/img/TITANIC_DATASET/TITANIC_DATASET_v3-Copy1_48_1.png)
     
 
 

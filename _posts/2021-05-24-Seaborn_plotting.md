@@ -13531,13 +13531,13 @@ plt.show()
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_18_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_18_0.png)
     
 
 
 # Seaborn funciones Figure-level
 Interactuan con matplotlib a través de un objeto seaborn.
-![png](/assets/img/Seaborn/diagram_trs.png)
+![png](/C_blog/assets/img/Seaborn/diagram_trs.png)
 
 # Categorical Plots
  ## ```Stripplot Swarmplot Boxplot Violinplot Pointplot Barplot```
@@ -13564,7 +13564,7 @@ sns.barplot(x = 'Age', y = 'Sex', data = datanew, estimator= np.mean);
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_22_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_22_0.png)
     
 
 
@@ -13592,7 +13592,7 @@ sns.countplot(x = 'Pclass', data = datanew);
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_24_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_24_0.png)
     
 
 
@@ -13617,7 +13617,7 @@ plt.legend( title="Survivor",loc=0, bbox_to_anchor=(0.55, 1.25),ncol=2, fancybox
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_26_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_26_0.png)
     
 
 
@@ -13653,7 +13653,7 @@ plt.legend(title="Survivor",loc='upper center',bbox_to_anchor=(0.5, 1.30),ncol=2
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_28_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_28_0.png)
     
 
 
@@ -13679,7 +13679,7 @@ plt.legend(["muerto","vivo"],loc=0);
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_30_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_30_0.png)
     
 
 
@@ -13714,7 +13714,7 @@ plt.legend(title="Embarkment port and Sex",loc='upper center', bbox_to_anchor=(0
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_32_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_32_0.png)
     
 
 
@@ -13747,7 +13747,7 @@ plt.legend(title="Survived",loc=0, ncol=2, fancybox=True, shadow=True);
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_34_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_34_0.png)
     
 
 
@@ -13778,7 +13778,7 @@ sns.histplot(x = 'Sex', y = 'Age', data = datanew,hue ='Pclass', palette=customP
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_37_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_37_0.png)
     
 
 
@@ -13807,7 +13807,7 @@ sns.kdeplot(x = 'Age', y = 'Pclass', data = datanew,hue ='Survived', palette=['b
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_39_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_39_0.png)
     
 
 
@@ -13832,7 +13832,7 @@ sns.ecdfplot(x = 'Age', data = datanew, hue='Pclass'  );
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_41_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_41_0.png)
     
 
 
@@ -13861,7 +13861,7 @@ plt.legend(title='Survived',loc='upper center', bbox_to_anchor=(0.5, 1.10),
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_43_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_43_0.png)
     
 
 
@@ -13898,7 +13898,7 @@ sns.scatterplot(data=datanew, x="Age", y="Pclass",
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_46_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_46_0.png)
     
 
 
@@ -13936,7 +13936,7 @@ sns.lineplot(data=datanew, x="Pclass", y="PassengerId", hue="Sex");
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_48_0.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_48_0.png)
     
 
 <!--excerpt.start-->
@@ -13967,7 +13967,7 @@ plt.show();
 
 
     
-![png](/assets/img/Seaborn/Seaborn_plotting_50_1.png)
+![png](/C_blog/assets/img/Seaborn/Seaborn_plotting_50_1.png)
 
 {% include callout.html content="Explorar el notebook en binder: &nbsp;[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/czg-es/Seaborn_plotting/main) " type="note" %}
 
