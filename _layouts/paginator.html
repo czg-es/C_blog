@@ -12,9 +12,9 @@ layout: default
   <div class="content">
 
     {% if post.content contains '<!--excerpt.start-->' and post.content contains '<!--excerpt.end-->' %}
-	      {{ post.content | split:'<!--excerpt.start-->' | last| split: '<!--excerpt.end-->' | first}}  <a href="/C_blog{{ post.url }}" >Leer mas...</a> 
+	      {{ post.content | split:'<!--excerpt.start-->' | last| split: '<!--excerpt.end-->' | first}}  <a href="/C_blog{{ post.url }}">Leer mas...</a> 
     {% else %}
-	      {{ post.content  }} <a href="/C_blog{{ post.url }}" >Leer mas...</a>
+	      {{ post.content  }} <a href="/C_blog{{ post.url }}">Leer mas...</a>
     {% endif %}  
 
    
