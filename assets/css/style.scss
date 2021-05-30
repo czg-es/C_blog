@@ -13,7 +13,7 @@ body{
     color: var(--txt_color);
 }
 
-pre, code { font-size: 15px; border: 1px solid plum; border-radius: 3px; background-color: #00000000; }
+pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius: 3px; background-color: #00000000; }
 .highlighter-rouge .highlight { background: #02020210; }
 
 
