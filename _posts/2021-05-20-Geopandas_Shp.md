@@ -92,13 +92,17 @@ widgets.interact(select_mapa ,mapa=mapaW)
 
     
 
-# EMPIEZA <br>
+# Mapa interactivo <br>
 <!--excerpt.start-->
 
 {%- include fig_1.html -%}
 
 
 ## BTN25 2006-2019 CC-BY 4.0 [ign.es ]( http://www.ign.es "Instituto geográfico nacional") 
+<hr>
+
+{% include callout.html content="Explorar el notebook en binder: &nbsp;[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/czg-es/Geopandas_shp/main) " type="note" %}
+
 <!--excerpt.end-->
 
 <div style="text-align: right"> <h1> CZG 2021</h1>  </div>
