@@ -139,3 +139,28 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     content: url(/assets/img/svg/dice-d6.svg)
 }
 */
+
+.lang_change{
+    padding: 1em;
+    background: var(--bg_color);
+    box-shadow: 1px 1px 1px 1px var(--txt_color);
+    border-radius: 0.5em;
+    cursor: pointer;
+
+}
+.icon_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.icon_container > div{
+    padding: 1em 2em;
+}
+.icon_container > div:hover{
+    display: inline-block;
+    transform: scale(1.5);
+    
+    //box-shadow: 0 0 100px #000 ;
+}
