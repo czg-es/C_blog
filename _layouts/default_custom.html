@@ -7,10 +7,11 @@
     
     {%- include header.html -%}
     
-    <main class="page-content" aria-label="Content" style=' background:lemonchiffon; color: #181818;' >
+    <main class="page-content" aria-label="Content" style='' >
       {%- include back_button.html -%}
       <div class="wrapper">
         {{ content }}
+        {%- include fullScreen.html -%}
       </div>
     </main>
 
