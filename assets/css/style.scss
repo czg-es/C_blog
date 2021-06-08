@@ -23,7 +23,7 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     top: 0;
 }
 .df_container{
-    height: 65vh;
+    //height: 65vh;
     overflow-y: auto;
     
 }
@@ -84,9 +84,9 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     border-radius: 2em;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.button_wrapper{
+/* .button_wrapper{
     
-}
+} */
 .bs-callout{
     display: flex;
     flex-direction: row;
