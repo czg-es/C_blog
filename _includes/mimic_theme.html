@@ -1,0 +1,17 @@
+<script>
+    function mimic_colors(){
+            let P_bg_c = getComputedStyle(parent.document.documentElement).getPropertyValue('--bg_color');
+            document.documentElement.style.setProperty('--bg_color', P_bg_c );
+            bg_c = getComputedStyle(document.documentElement).getPropertyValue('--bg_color');
+
+            let P_dark_c = getComputedStyle(parent.document.documentElement).getPropertyValue('--dark_color');
+            document.documentElement.style.setProperty('--dark_color',P_dark_c );
+            dark_c = getComputedStyle(document.documentElement).getPropertyValue('--dark_color');
+
+            let P_text_c = getComputedStyle(parent.document.documentElement).getPropertyValue('--txt_color');
+            document.documentElement.style.setProperty('--txt_color',P_text_c );
+            text_c = getComputedStyle(document.documentElement).getPropertyValue('--txt_color');
+        }
+    mimic_colors();
+    
+</script>
