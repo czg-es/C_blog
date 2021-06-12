@@ -1,0 +1,16 @@
+<script>
+    const footer_div = document.getElementById('quote');
+    var quote ;
+    fetch('https://script.google.com/macros/s/AKfycbyLWn5e2YKs5a48FS4nej15S_OM4lyAY6X0C6dzKQTbOB1aEJGVOR41sC14s6ybDQLH/exec?v=q')
+    .then(response => response.json())
+    .then(data => quote =data)
+    .then(function popu(){
+        footer_div.innerHTML = "<span>"+quote['QUOTE']+"</span></br>";
+        footer_div.innerHTML += "<span>"+quote['AUTHOR']+"</span>";
+    });
+    
+    
+    popu();
+    
+
+</script>
