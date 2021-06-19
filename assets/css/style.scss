@@ -167,3 +167,23 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     
     //box-shadow: 0 0 100px #000 ;
 }
+
+table {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    color: var(--txt_color);
+    border-collapse: collapse;
+    border: 1px solid var(--accent_color);
+}
+table tr:nth-child(even) {
+    background-color: #ffffff7e;
+}
+table th {
+    filter:grayscale(100%);
+    background-color: var(--bg_color);
+    border: 1px solid var(--dark_color);
+    border-bottom-color: var(--complementary_color);
+}
+table td {
+    border: 1px solid var(--accent_color);
+}
