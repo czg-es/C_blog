@@ -198,9 +198,9 @@ a:visited {
     color: var(--accent_color);
 }
 a:hover {
-    filter: brightness(30%);
+    filter: brightness(60%);
     color: var(--accent_color) !important;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .social-media-list a:hover {
     text-decoration: none;
