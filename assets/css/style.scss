@@ -146,6 +146,7 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
 .lang_change{
     padding: 1em;
     background: var(--bg_color);
+    color: var(--accent_color);
     box-shadow: 1px 1px 1px 1px var(--txt_color);
     border-radius: 0.5em;
     cursor: pointer;
@@ -176,7 +177,7 @@ table {
     border: 1px solid var(--accent_color);
 }
 table tr:nth-child(even) {
-    background-color: #ffffff7e;
+    background-color: #00000015;
 }
 table th {
     filter:grayscale(100%);
@@ -186,4 +187,31 @@ table th {
 }
 table td {
     border: 1px solid var(--accent_color);
+}
+
+a {
+    color: var(--accent_color) !important;
+    text-decoration: none;
+}
+a:visited {
+    filter: brightness(85%);
+    color: var(--accent_color);
+}
+a:hover {
+    filter: brightness(30%);
+    color: var(--accent_color) !important;
+    text-decoration: underline;
+}
+.social-media-list a:hover {
+    text-decoration: none;
+}
+.social-media-list a:hover .username {
+    text-decoration: underline;
+}
+
+.site-header{
+    color:var(--accent_color);
+}
+.site-nav {
+    background-color: var(--bg_color);
 }
