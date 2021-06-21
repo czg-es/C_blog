@@ -19,12 +19,16 @@ body{
 pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius: 3px; background-color: #00000000; }
 .highlighter-rouge .highlight { background: #02020210; }
 
-
 .dataframe thead th {
     text-align: right;
     position: sticky;
     top: 0;
 }
+tr >th{
+    position: sticky;
+    left: 0;
+}
+
 .df_container{
     height: 65vh;
     overflow-y: auto;
@@ -38,41 +42,41 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
    display: inline-block;
    //width: 100%;
     //height: 100%; 
-   width: 100%; //or any percentage width you want
+   width: 100%; 
   // padding: 50px;
    // overflow-y: auto;
    background: #ffffff38;
 }
 .mpld3-figure{
     box-sizing: border-box;
-    //height: 60vh;; //or any percentage width you want
+    //height: 60vh; 
     //padding: 5px;
-    
 }
 
 .content { display: none; }
 .preview_link:hover ~ .content{ display: block; 
                                 position:relative; 
-                                max-width: calc(100% / 1.5);
+                                /* max-width: calc(100% / 1.5); */
                                 // Try to position absolute so the links dont dance around 
                             }
-//.preview_link:hover ~ .date{ display: none; }
 .c_preview:hover  .date{ display: none; }            
 
 .c_preview:hover .content{ display: block; 
                              position: relative; 
-                             max-width: calc(100% / 1.5);
+                             /* max-width: calc(100% / 1.5); */
                              
                             }
-//.content:hover {display: block; }
 
 .c_preview:hover{
     padding: 1em;
     background: #0000000c;
     display: flex;
     align-content: center;
+    
 }
 .c_preview{
+    display: flex;
+    flex-direction: column;
     transition-delay: 0.1s;
     border-radius: 1em;;
 }
@@ -87,9 +91,7 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     border-radius: 2em;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-/* .button_wrapper{
-    
-} */
+
 .bs-callout{
     display: flex;
     flex-direction: row;
@@ -98,11 +100,9 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     margin: 0.2em;
     border: 2px solid;
     border-radius: 1em;
-    
 }
 
 .bs-callout-tip{
-    
     color: #3c763d;
     background-color: #dff0d8;
     border-color: #d6e9c6;
@@ -156,8 +156,6 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-    
 }
 .icon_container > div{
     padding: 1em 2em;
@@ -165,7 +163,6 @@ pre, code { font-size: 15px; border: 1px solid var(--dark_color); border-radius:
 .icon_container > div:hover{
     display: inline-block;
     transform: scale(1.5);
-    
     //box-shadow: 0 0 100px #000 ;
 }
 
